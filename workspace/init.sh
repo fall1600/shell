@@ -36,9 +36,10 @@ sudo yarn global add markdown-styles -y
 # ngrok
 wget "https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip"
 unzip ./ngrok-stable-linux-amd64.zip
-sudo mv ~/Desktop/ngrok /usr/bin
+sudo mv ./ngrok /usr/bin
+rm ngrok-stable-linux-amd64.zip
 
 # unetbootin
-sudo add-apt-repository ppa:gezakovacs/ppa
+sudo add-apt-repository ppa:gezakovacs/ppa -y
 sudo apt-get update
 sudo apt-get install unetbootin -y

@@ -3,12 +3,12 @@
 sudo apt update
 
 # Simple Screen Recorder
-sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder -y
 sudo apt-get update
 sudo apt-get install simplescreenrecorder -y
 
 # peek
-sudo add-apt-repository ppa:peek-developers/stable
+sudo add-apt-repository ppa:peek-developers/stable -y
 sudo apt update
 sudo apt install peek -y
 

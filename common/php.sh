@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 sudo apt-get update
-sudo add-apt-repository ppa:ondrej/php
+sudo add-apt-repository ppa:ondrej/php -y
 sudo apt-get update
 sudo apt-get install php7.1 -y
 sudo apt-get install php7.1-mysql -y

@@ -25,9 +25,9 @@ echo 'alias la="php artisan"' >> ~/.config/fish/config.fish
 echo 'alias sf="app/console"' >> ~/.config/fish/config.fish
 echo 'alias clip="xclip -i -selection clipboard"' >> ~/.config/fish/config.fish
 echo '..="cd ../"' >> ~/.config/fish/config.fish
-echo '...="cd .../"' >> ~/.config/fish/config.fish
-echo '....="cd ..../"' >> ~/.config/fish/config.fish
-echo '.....="cd ...../"' >> ~/.config/fish/config.fish
+echo '...="cd ../../"' >> ~/.config/fish/config.fish
+echo '....="cd ../../../"' >> ~/.config/fish/config.fish
+echo '.....="cd ../../../../"' >> ~/.config/fish/config.fish
 echo 'alias phpunit="./vendor/bin/phpunit"' >> ~/.config/fish/config.fish
 echo "set -g theme_powerline_fonts no" >> ~/.config/fish/config.fish
 echo "set -g theme_nerd_fonts no" >> ~/.config/fish/config.fish

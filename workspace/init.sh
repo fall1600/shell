@@ -23,11 +23,15 @@ bash ./workspace/php-greaman.sh
 bash ./workspace/phpstorm.sh
 
 # git
-git config --global user.name "Ciao Chung"
-git config --global user.email ciao0958@gmail.com
+git config --global user.name "fall1600"
+git config --global user.email fall1600@gmail.com
 git config --global core.editor vim
 git config --global push.default simple
 git config --global core.filemode false
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.br branch
 
 # yarn dependency
 sudo yarn global add apidoc -y

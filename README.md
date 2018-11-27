@@ -35,6 +35,18 @@ sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
 sudo service mysql restart
 ```
 
+### 備份資料
+```bash
+# 備份全部的表
+mysqldump -u user -p database_name > backup.sql
+# 備份多(一)張表
+mysqldump -u user -p database_name table1 table2 > backup.sql
+
+# 還原
+mysql -u user -p database_name < backup.sql
+
+```
+
 ## Apache
 
 ### 隱藏系統資訊

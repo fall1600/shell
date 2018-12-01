@@ -47,6 +47,11 @@ mysql -u user -p database_name < backup.sql
 
 ```
 
+### 複製遠端檔案至本地
+```
+rsync -chavzP --stats user@remote.host:/path/to/copy /path/to/local/storage
+```
+
 ## Apache
 
 ### 隱藏系統資訊

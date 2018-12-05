@@ -65,6 +65,16 @@ ServerTokens Prod
 ServerSignature Off
 ```
 
+### 查詢mpm 模式 (prefork, workerk, event)
+```bash
+a2query -M
+```
+
+### 查詢啟用了哪些site
+```bash
+a2query -s
+```
+
 ## phpMyAdmin
 
 ### 切換phpmyadmin預設URL
